@@ -1,0 +1,23 @@
+public class Main {
+    public static void main(String[] args) {
+        InstanceVariableDemo obj = new InstanceVariableDemo();
+        System.out.println("Employee Name : " + obj.name);
+        System.out.println("Age: " + obj.age);
+        System.out.println("ID: " + obj.id);
+        System.out.println("Designation: " + obj.designation);
+    }
+}
+
+class InstanceVariableDemo {
+    public String name;
+    public String designation;
+    public int age;
+    public int id;
+
+    public InstanceVariableDemo() {
+        this.name = "Haritha";
+        this.designation = "Web Developer";
+        this.age = 19;
+        this.id = 6752;
+    }
+}
